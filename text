@@ -1,0 +1,19 @@
+// for using nodemon we here use server but like npm run server for safe side use npm run start/server
+    // for es6 you can use "type" :"module" in package.lock.json 
+bsicay is used for how the status codes showed wiht colrs gren ,orange,red and timings and other details 
+
+on client part first we create npx create-react-app client part frontend reomve all css of app and index js
+then remove content of app.js inside div tag then make folder structire like pages and compoenents 
+compoenets we made footer ,header,layout 
+pages about,contact,Homepage,pagenofound,poilices then we wrap all pages wiht layout 
+layout contains header main section that contains child element content wiht children as prop pass or props put in funcion
+argument then {prop.children} or {children} that you all content of your pages in main section layout(parnet element )
+
+then react-router-dom on which we make broswerouter on index.js wrpa all of that
+ <!-- /*<BrowserRouter>
+  <React.StrictMode>
+    <App />
+  </React.StrictMode></BrowserRouter>*/ --> then on app js make routes route on app.js like 
+  <!-- <Routes> <Route to="/" element ={<pageyou want to show/>}/></Routes> -->
+  now on from bootrsap we paste header on header section and apply css of them on index.js convert html to jsx
+  close all a tags </> like this apply link on them 
